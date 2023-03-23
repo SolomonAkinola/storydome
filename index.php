@@ -159,8 +159,8 @@ $row_getallstories = mysqli_fetch_array($getallstories);
 
             <hr>
             <div class="footer-copyright text-center py-2">
-                <a href="tel:+234 803-749-0332">
-                    &copy; 2021 Copyright: Story dome
+                <a href="tel:+44010000000000">
+                    &copy; 2023 Copyright: Story dome
                 </a>
             </div>
         </div>
