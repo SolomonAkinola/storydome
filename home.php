@@ -73,16 +73,10 @@ include 'components/like_stories.php';
       <div class="box">
          <p>categories</p>
          <div class="flex-box">
-            <a href="category.php?category=nature" class="links">politics</a>
-            <a href="category.php?category=education" class="links">education</a>
-            <a href="category.php?category=business" class="links">business</a>
-            <a href="category.php?category=travel" class="links">travel</a>
-            <a href="category.php?category=news" class="links">countries</a>
-            <a href="category.php?category=gaming" class="links">gaming</a>
-            <a href="category.php?category=sports" class="links">sports</a>
-            <a href="category.php?category=design" class="links">design</a>
-            <a href="category.php?category=fashion" class="links">fashion</a>
-            <a href="category.php?category=persional" class="links">personal</a>
+            <a href="category.php?category=nature" class="links">Aberdeen</a>
+            <a href="category.php?category=education" class="links">Glasgow</a>
+            <a href="category.php?category=business" class="links">Edinburgh</a>
+            <a href="category.php?category=travel" class="links">Dundee</a>
             <a href="all_category.php" class="btn">view all</a>
          </div>
       </div>
