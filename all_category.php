@@ -40,7 +40,7 @@ include 'components/like_stories.php';
 
 <section class="categories">
 
-   <h1 class="heading">post categories</h1>
+   <h1 class="heading">categories</h1>
 
    <div class="box-container">
       <div class="box"><span>01</span><a href="category.php?category=nature">Aberdeen</a></div>
