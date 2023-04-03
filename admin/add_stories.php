@@ -131,27 +131,10 @@ if(isset($_POST['draft'])){
       <p>category <span>*</span></p>
       <select name="category" class="box" required>
          <option value="" selected disabled>-- select category* </option>
-         <option value="nature">nature</option>
-         <option value="education">education</option>
-         <option value="pets and animals">pets and animals</option>
-         <option value="technology">technology</option>
-         <option value="fashion">fashion</option>
-         <option value="entertainment">entertainment</option>
-         <option value="movies and animations">movies</option>
-         <option value="gaming">gaming</option>
-         <option value="music">music</option>
-         <option value="sports">sports</option>
-         <option value="news">news</option>
-         <option value="travel">travel</option>
-         <option value="comedy">comedy</option>
-         <option value="design and development">design and development</option>
-         <option value="food and drinks">food and drinks</option>
-         <option value="lifestyle">lifestyle</option>
-         <option value="personal">personal</option>
-         <option value="health and fitness">health and fitness</option>
-         <option value="business">business</option>
-         <option value="shopping">shopping</option>
-         <option value="animations">animations</option>
+         <option value="Aberdeen">Aberdeen</option>
+         <option value="Glasgow">Glasgow</option>
+         <option value="Edinburgh">Edinburgh</option>
+         <option value="Dundee">Dundee</option>
       </select>
       <p>image</p>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp">
