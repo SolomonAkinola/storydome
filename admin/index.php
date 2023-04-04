@@ -1,10 +1,22 @@
 <?php
 include 'partials/header.php';
 
-// fetch current user's posts from database
-$current_user_id = $_SESSION['user-id'];
-$query = "SELECT id, title, category_id FROM posts WHERE author_id=$current_user_id ORDER BY id DESC";
-$posts = mysqli_query($connection, $query);
+// check if the user is an admin
+$is_admin = isset($_SESSION['user_is_admin']) && $_SESSION['user_is_admin'];
+
+if ($is_admin) {
+  // if the user is an admin, fetch all posts from the database
+  $query = "SELECT p.id, p.title, p.category_id, u.username
+            FROM posts p
+            JOIN users u ON p.author_id = u.id
+            ORDER BY p.id DESC";
+  $posts = mysqli_query($connection, $query);
+} else {
+  // otherwise, fetch only the current user's posts from the database
+  $current_user_id = $_SESSION['user-id'];
+  $query = "SELECT id, title, category_id FROM posts WHERE author_id=$current_user_id ORDER BY id DESC";
+  $posts = mysqli_query($connection, $query);
+}
 ?>
 
 
@@ -88,7 +100,7 @@ $posts = mysqli_query($connection, $query);
             </ul>
         </aside>
         <main>
-            <h2>Manage Users</h2>
+            <h2>Manage Posts</h2>
             <?php if (mysqli_num_rows($posts) > 0) : ?>
                 <table>
                     <thead>
