@@ -8,7 +8,7 @@ if (isset($_GET['id'])) {
     $query = "SELECT * FROM posts WHERE category_id=$id ORDER BY date_time DESC";
     $posts = mysqli_query($connection, $query);
 } else {
-    header('location: ' . ROOT_URL . 'blog.php');
+    header('location: ' . ROOT_URL . 'stories.php');
     die();
 }
 ?>
