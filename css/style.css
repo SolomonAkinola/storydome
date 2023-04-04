@@ -444,7 +444,7 @@ footer ul a:hover {
     color: var(--color-green);
 }
 /* centers text of alert. eg. empty category-posts page*/
-/* ADDED AFTER TUTORIAL */
+/* ADDED AFTER before submission */
 .alert__message.lg {
     text-align: center;
 }
@@ -600,7 +600,7 @@ input, textarea, select {
         justify-content: center;
         gap: 0;
         display: none;
-        /* ADDED AFTER TUTORIAL */
+        /* ADDED before submission */
         perspective: 300px;
     }
 
@@ -680,7 +680,7 @@ input, textarea, select {
     }
 
 
-    /* ============= BLOG =========== */
+    /* =============ST=========== */
     .search__bar-container {
         width: 60%;
     }
@@ -755,7 +755,7 @@ input, textarea, select {
         gap: 2rem;
     }
 
-    /* ============= BLOG =========== */
+    /* ============= ST =========== */
     .search__bar-container {
         width: var(--container-width-md);
     }
