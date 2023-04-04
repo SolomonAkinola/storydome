@@ -53,7 +53,7 @@ unset($_SESSION['signup-data']);
                 <input type="password" name="createpassword" value="<?= $createpassword ?>" placeholder="Create Password">
                 <input type="password" name="confirmpassword" value="<?= $confirmpassword ?>" placeholder="Confirm Password">
                 <div class="form__control">
-                    <label for="avatar">User Avatar</label>
+                    <label for="avatar">User Picture</label>
                     <input type="file" name="avatar" id="avatar">
                 </div>
                 <button type="submit" name="submit" class="btn">Sign Up</button>
